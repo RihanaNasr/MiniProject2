@@ -23,7 +23,7 @@
 This project demonstrates a comprehensive analysis of the US Accidents dataset (2016-2023) using Apache Spark's three primary APIs: **RDD**, **DataFrame**, and **Spark SQL**. The primary objective is to understand how Spark's Catalyst Optimizer and Tungsten Engine improve query execution efficiency.
 
 ### Key Metrics
-- **Dataset Size:** 7,728,394 records (100,000 sample used for benchmarking)
+- **Dataset Size:** 7,728,394 records 
 - **Columns:** 47+ attributes with mixed data types
 - **Queries Implemented:** 10 comprehensive queries
 - **API Implementations:** 3 per query (RDD, DataFrame, SQL)
@@ -140,7 +140,6 @@ Root
 | Characteristic | Details |
 |---|---|
 | **Total Records** | 7,728,394 |
-| **Sample Used** | 100,000 (1% sample) |
 | **Date Range** | 2016-2023 |
 | **Columns** | 47 attributes |
 | **Data Types** | String (20), Timestamp (4), Double (15), Integer (8) |
